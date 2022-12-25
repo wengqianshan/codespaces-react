@@ -68,7 +68,7 @@ function App() {
             }}
           >
             <div>
-              {item.id}: {item.name}
+              {item.id}: {item.name} (￥{item.price})
             </div>
             {isChecked && <div>✅</div>}
           </div>
